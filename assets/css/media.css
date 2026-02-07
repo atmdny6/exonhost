@@ -1,0 +1,1144 @@
+/* ==========================================================================
+   *Large devices (desktops, 992px and up)*
+   ========================================================================== */
+@media (min-width: 992px) and (max-width:1199px) {}
+
+
+/* ==========================================================================
+   *Medium devices (tablets, 1200px and down)*
+   ========================================================================== */
+@media (max-width: 1200px) {
+    .header-top-right .second-div {
+        margin-left: 15px;
+    }
+
+    .header-top-right .second-div ul li {
+        padding: 0 5px;
+    }
+
+    .home-plan-main-box {
+        padding: 0 20px 25px 20px;
+    }
+
+    .home-control-left {
+        padding-right: 0px;
+    }
+
+    .different-exonhost-box {
+        padding-right: 0px;
+    }
+
+    .where-start-ul li {
+        margin-right: 10px;
+        margin-top: 20px;
+    }
+
+    .where-start-left {
+        margin-right: -50px;
+        position: relative;
+        z-index: 2;
+        padding: 30px 0;
+    }
+
+    .footer-social li {
+        margin-left: 13px;
+    }
+
+    .footer-main-left .left p br {
+        display: none;
+    }
+
+    .additional-providers-box {
+        padding: 0px;
+    }
+
+    .certificate-option-main .table tbody tr td,
+    .certificate-option-main .table tfhead tr th {
+        padding-left: 20px;
+    }
+
+    .ssl-security-box p {
+        padding-right: 0px;
+    }
+
+    .dedicated-plans-box .mid {
+        margin: 0px;
+    }
+
+    .dedicated-plans-box .left {
+        padding-bottom: 10px;
+        border-bottom: 1px solid #e2e7ee;
+        margin-bottom: 15px;
+    }
+
+    .dedicated-second-box {
+        padding: 0px;
+    }
+
+    .full-specs-features {
+        margin-top: 45px;
+    }
+
+    .email-hosting-features-block {
+        margin-top: 40px;
+    }
+
+    .email-hosting-features-box {
+        padding-left: 91px;
+        margin-top: 20px;
+    }
+
+    .email-advanced-features-block {
+        margin-top: 40px;
+    }
+
+    .email-hosting-page {
+        padding: 0 0 60px 0;
+    }
+
+    .web-lightweight-left h3 {
+        font-size: 28px;
+    }
+
+    .premium-speed-right {
+        padding-left: 0px;
+    }
+
+    .availables-os-main ul li {
+        padding: 0 25px;
+    }
+
+    .vps-order-box-bottom p {
+        font-size: 14px;
+    }
+
+    .vps-order-box ul li h2 {
+        font-size: 38px;
+    }
+
+    .rng-slider-content {
+        padding: 25px;
+    }
+
+    .vps-order-box {
+        margin-right: -15px;
+    }
+
+    .changing-content-box h5 span {
+        font-size: 20px;
+    }
+
+    .range-slider {
+        margin: 0px 103px;
+    }
+}
+
+
+
+/* ==========================================================================
+   *Medium devices (tablets, 991px and down)*
+   ========================================================================== */
+@media (max-width: 991px) {
+
+    .main-menu {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: block;
+        background: #000000;
+    }
+
+    .mobile-menu a.menu-toggle {
+        display: block;
+        z-index: 1;
+        top: 15px;
+        right: 10px;
+        background: #000000;
+    }
+
+    .mobile-menu ul.menu-list {
+        display: none;
+    }
+
+    .mobile-menu ul li span {
+        display: none;
+    }
+
+    .mobile-menu ul.menu-list li a.login {
+        color: #fff;
+        display: block;
+        width: 100%;
+        font-size: 14px;
+        text-transform: uppercase;
+        padding: 8px 0;
+        background: none;
+        display: inline-block;
+        line-height: normal;
+        position: relative;
+        top: 0px;
+        border-radius: 0px;
+    }
+
+    .mobile-menu ul li a.active {
+        color: #fff;
+    }
+
+    .header-right {
+        margin-right: 50px;
+    }
+
+    .mobile-menu ul.menu-list {
+        padding: 10px 0;
+    }
+
+    .mobile-menu ul li a {
+        font-size: 14px;
+    }
+
+    .mobile-menu ul.menu-list>li>ul>li a {
+        font-size: 14px;
+    }
+
+    .header-top-right .second-div,
+    .header-top-right .first-div {
+        display: none;
+    }
+
+    .header-wrapper {
+        padding: 0px;
+    }
+
+    .header-top-block {
+        padding: 19px 0;
+    }
+
+    .banner-wrapper {
+        min-height: inherit;
+        padding: 50px 0;
+    }
+
+    .banner-main {
+        padding-top: 0px;
+        text-align: center;
+    }
+
+    .home-second-block {
+        background: #1260a8;
+        padding: 50px 0;
+    }
+
+    .home-second-main {
+        margin-top: 0px;
+    }
+
+    .home-second-main .bottom ul li {
+        margin-bottom: 15px;
+    }
+
+    .home-plan-control-block {
+        padding: 30px 0 50px 0;
+    }
+
+    .home-plan-main {
+        margin-top: 0px;
+    }
+
+    .home-plan-main-box {
+        padding: 20px;
+        margin-top: 25px;
+    }
+
+    .home-plan-main-box .top {
+        margin-top: 0px;
+    }
+
+    .home-control-main {
+        margin-top: 50px;
+    }
+
+    .home-control-main .head {
+        padding-bottom: 0px;
+    }
+
+    .home-control-left ul li:first-child {
+        padding-top: 25px;
+    }
+
+    .home-control-right {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .powerful-solution-block {
+        padding: 50px 0;
+    }
+
+    .home-help-main {
+        text-align: center;
+    }
+
+    .home-map-block {
+        padding: 50px 0;
+    }
+
+    .different-exonhost-block {
+        padding: 50px 0;
+    }
+
+    .different-exonhost-block .head {
+        padding-bottom: 0px;
+    }
+
+    .different-exonhost-box {
+        padding: 0px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .different-exonhost-box span.different-exonhost-span {
+        position: static;
+        margin-bottom: 15px;
+    }
+
+    .home-testimoial-block {
+        padding: 50px;
+    }
+
+    .home-testimoial-left {
+        margin-right: 0px;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .home-logo-block {
+        padding-bottom: 50px;
+    }
+
+    .home-logo-main ul {
+        display: block !important;
+    }
+
+    .home-logo-main ul li {
+        padding: 0 20px;
+    }
+
+    .where-start-left {
+        margin-right: 0px;
+    }
+
+    .where-start-main {
+        text-align: center;
+    }
+
+    .where-start-right {
+        margin: 0px;
+    }
+
+    .footer-top-block {
+        padding: 50px 0;
+    }
+
+    .footer-links {
+        margin-bottom: 15px;
+    }
+
+    .footer-main-block {
+        margin-top: 25px;
+        padding-top: 35px;
+    }
+
+    .footer-main-right {
+        margin-top: 25px;
+    }
+
+    .home-mobile-map {
+        display: block;
+    }
+
+    .home-map-main {
+        display: none;
+    }
+
+    .banner-main .right {
+        margin-right: 0px;
+    }
+
+    .top-block {
+        padding-top: 0px;
+    }
+
+    .header-outer-block {
+        position: static;
+    }
+
+    .about-intro-block {
+        padding: 50px 0;
+    }
+
+    .our-history-left {
+        text-align: center;
+    }
+
+    .our-history-right {
+        padding-top: 15px;
+        text-align: center;
+    }
+
+    .our-history-block {
+        padding: 50px 0;
+    }
+
+    .vision-mission-block {
+        padding: 35px 0;
+        background: none;
+    }
+
+    .vision-mission-main {
+        margin-top: 0px;
+    }
+
+    .vision-mission-box {
+        margin: 15px 0;
+    }
+
+    .vision-mission-box p {
+        text-align: center;
+    }
+
+    .about-twitter-box {
+        text-align: center;
+    }
+
+    .about-twitter-box img {
+        margin-bottom: 15px;
+        display: inline-block;
+    }
+
+    .sub-banner-wrapper {
+        min-height: inherit;
+        padding: 50px 0;
+        height: auto;
+    }
+
+    .sub-banner-main {
+        min-height: auto;
+        display: block;
+    }
+
+    .sub-banner-text {
+        display: block;
+    }
+
+    .ssl-top-block {
+        padding: 50px 0;
+    }
+
+    .ssl-plans-box {
+        padding: 25px 20px;
+    }
+
+    .additional-providers-main {
+        margin-top: 50px;
+    }
+
+    .additional-providers-box {
+        margin-top: 25px;
+        text-align: center;
+    }
+
+    .certificate-option-block {
+        padding: 50px 0;
+    }
+
+    .much-more-block {
+        margin-top: 50px;
+    }
+
+    .much-more-box {
+        margin-top: 25px;
+        text-align: center;
+    }
+
+    .what-ssl-certificate-block {
+        text-align: center;
+        padding: 50px 0
+    }
+
+    .what-ssl-certificate-main .left {
+        margin-bottom: 20px;
+    }
+
+    .ssl-security-block {
+        padding: 50px 0;
+    }
+
+    .ssl-security-box {
+        margin-top: 25px;
+    }
+
+    .ssl-security-main {
+        margin-bottom: 25px;
+    }
+
+    .dedicated-plans-main-box .head {
+        text-align: center;
+    }
+
+    .dedicated-plans-box .left p {
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .dedicated-plans-box .left p span {
+        position: static;
+        margin-bottom: 5px;
+        display: block;
+    }
+
+    .dedicated-plans-box .right {
+        max-width: 260px;
+        margin: auto;
+        margin-top: 15px;
+    }
+
+    .sub-banner-wrapper.dedicated-server-banner .sub-banner-main {
+        min-height: inherit;
+    }
+
+    .dedicated-plans-block {
+        padding: 50px 0;
+    }
+
+    .dedicated-plans-main {
+        margin-top: 0px;
+    }
+
+    .dedicated-second-block {
+        padding: 50px 0;
+    }
+
+    .featured-operating-systems {
+        margin-top: 45px;
+        padding-top: 45px;
+    }
+
+    .essential-addons-block {
+        padding: 50px 0;
+    }
+
+    .dedicated-features-box {
+        text-align: center;
+        padding: 25px 0;
+    }
+
+    .dedicated-features-box .right {
+        margin-top: 20px;
+    }
+
+    .domain-top-block {
+        padding: 50px 0;
+    }
+
+    .domain-transfer-domain-block {
+        margin-top: 0px;
+    }
+
+    .transfer-domain-bottom-ul li {
+        margin: 0 15px;
+    }
+
+    .domain-transfer-domain-top,
+    .domain-transfer-domain-bottom {
+        padding: 30px;
+    }
+
+    .great-prices-table .table-responsive {
+        overflow: hidden;
+        overflow-x: auto;
+    }
+
+    .great-prices-table .table {
+        width: 1000px;
+    }
+
+    .what-get-block,
+    .great-prices-block {
+        margin-top: 50px;
+    }
+
+    .what-get-box {
+        margin-top: 25px;
+    }
+
+    .what-get-box h4 br {
+        display: none;
+    }
+
+    .great-prices-search-block {
+        padding: 35px;
+    }
+
+    .existing-deal-today-block,
+    .pick-deal-today-block,
+    .guidance-step-block {
+        padding: 50px 0;
+    }
+
+    .existing-deal-today {
+        padding: 0px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .existing-deal-today .deal-today-icon {
+        position: static;
+        margin-bottom: 15px;
+    }
+
+    .pick-deal-today-box {
+        margin-top: 20px;
+    }
+
+    .guidance-step-box {
+        padding: 20px;
+    }
+
+    .faq-block {
+        padding: 50px 0;
+    }
+
+    .faq-desclimer {
+        padding: 25px;
+        margin-top: 40px;
+    }
+
+    .email-hosting-plans-box .top {
+        padding: 25px 20px;
+    }
+
+    .email-hosting-plans-box .top .commen-btn2 {
+        padding: 9px 25px;
+    }
+
+    .email-hosting-plans-box .top h3 {
+        font-size: 30px;
+    }
+
+    .email-hosting-plans-box .bottom {
+        padding: 20px;
+    }
+
+    .email-hosting-plans-box .bottom ul li {
+        padding-left: 25px;
+    }
+
+    .email-hosting-plans-block {
+        margin-top: 0px;
+    }
+
+    .email-hosting-page {
+        padding: 50px 0;
+    }
+
+    .ssl-plans-box .top {
+        padding-bottom: 10px;
+    }
+
+    .most-popular {
+        width: 80px;
+    }
+
+    .web-hosting-top-block {
+        padding: 50px 0;
+    }
+
+    .cm-switcher {
+        padding: 10px 0;
+    }
+
+    .web-lightweight-left {
+        margin-right: 0px;
+        border-right: none;
+        padding: 20px 30px;
+        text-align: center;
+    }
+
+    .web-lightweight-right {
+        margin-left: 0px;
+        padding-top: 0px;
+    }
+
+    .web-lightweight-block {
+        margin-top: 40px;
+    }
+
+    .free-bonus-block,
+    .premium-speed-block {
+        padding: 50px 0;
+    }
+
+    .premium-speed-left {
+        display: block;
+        text-align: center;
+    }
+
+    .premium-speed-right-box {
+        margin-top: 25px;
+    }
+
+    .web-advanced-features-block {
+        padding: 50px 0;
+    }
+
+    .web-advanced-features-block:before {
+        display: none;
+    }
+
+    .availables-os-main ul li {
+        padding: 0 10px;
+    }
+
+    .open-vz-vps .table {
+        width: 1000px;
+    }
+
+    .availables-os-block {
+        padding: 50px 0;
+    }
+
+    .free-bonus-block .much-more-block .much-more-box img {
+        margin-bottom: 20px;
+    }
+
+    .vps-top-block {
+        padding: 50px 0;
+    }
+
+    .vps-order-box {
+        margin: 0px;
+        margin-top: 20px;
+    }
+
+    .rng-slider-content {
+        padding-top: 10px;
+    }
+
+    ul.range-devider>li {
+        font-size: 0px;
+    }
+
+    ul.range-devider>li>span {
+        font-size: 14px;
+    }
+
+    .range-slider {
+        margin: 0 63px;
+    }
+
+    ul.range-devider {
+        width: 96%;
+    }
+
+    .range-slider-block {
+        padding: 15px 20px;
+    }
+
+    .vps-plan-main {
+        margin-top: 0px;
+    }
+}
+
+/* ==========================================================================
+   *Small devices (landscape phones, less than 768px)*
+   ========================================================================== */
+@media (max-width: 767px) {
+    .logo {
+        width: 150px;
+    }
+
+    .banner-main .right h2 {
+        font-size: 36px;
+    }
+
+    .banner-btns {
+        padding-top: 20px;
+    }
+
+    .home-second-main .bottom ul li {
+        width: 32%;
+    }
+
+    .powerful-solution-box {
+        text-align: center;
+    }
+
+    .home-help-block {
+        padding: 50px 0;
+    }
+
+    .home-testimoial-right {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .home-testimoial-box {
+        padding: 80px 20px 20px 20px;
+    }
+
+    .home-testimoial-left p {
+        margin-bottom: 25px;
+    }
+
+    .home-testimoial-left h3 {
+        margin-bottom: 15px;
+    }
+
+    .where-start-block {
+        padding-top: 20px;
+    }
+
+    .footer-main-right .right {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    .footer-main-right .left,
+    .footer-main-left .left,
+    .footer-main-right .right,
+    .footer-main-left .right {
+        margin-bottom: 10px;
+    }
+
+    .footer-main-right .left h4,
+    .footer-main-left .left h4,
+    .footer-main-right .right h4,
+    .footer-main-left .right h4 {
+        margin-bottom: 10px;
+    }
+
+    .footer-main-left .left p {
+        margin-bottom: 15px;
+    }
+
+    .footer-bottom-main {
+        display: block !important;
+        text-align: center;
+    }
+
+    .header-top-block {
+        padding: 10px 0;
+    }
+
+    .header-top-main {
+        display: block !important;
+    }
+
+    .logo {
+        width: 200px;
+        margin-bottom: 10px;
+    }
+
+    .header-top-right .third-div {
+        margin-left: 0px;
+    }
+
+    .header-top-right .fourth-div {
+        margin-left: 0px;
+    }
+
+    .dahboard-login {
+        margin-left: 5px;
+    }
+
+    .banner-btns li {
+        margin: 0 7px;
+    }
+
+    .banner-btns li a {
+        width: 150px;
+        padding: 10px 0px;
+    }
+
+    .footer-main-right .left {
+        margin-right: 0px;
+    }
+
+    .vision-mission-box {
+        padding: 25px;
+    }
+
+    .about-twitter-block {
+        padding: 20px 0;
+    }
+
+    .our-history-right {
+        padding: 0px;
+        padding-top: 15px;
+    }
+
+    .certificate-option-main .table {
+        width: 1000px;
+    }
+
+    .dedicated-plans-box {
+        padding: 25px;
+    }
+
+    /* .dedicated-plans-box .mid ul { text-align: center;} */
+    .dedicated-plans-box .mid ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+        /* row gap | column gap */
+        padding: 0;
+        margin: 0;
+    }
+
+    .dedicated-plans-box .mid ul li {
+        margin-left: 0px;
+        padding: 10px;
+        text-align: center;
+        width: 48%;
+    }
+
+    .dedicated-plans-box .mid ul li .commen-dedi-plan-icon {
+        position: static;
+        display: inline-block;
+        margin-bottom: 5px;
+    }
+
+    .what-get-box {
+        text-align: center;
+    }
+
+    .great-prices-search-block {
+        padding: 25px;
+    }
+
+    .pick-deal-today-box {
+        max-width: inherit;
+        text-align: center;
+        padding-left: 0px;
+    }
+
+    .pick-deal-today-box:before {
+        position: static;
+    }
+
+    .pick-deal-today-block .head {
+        padding-bottom: 0px;
+    }
+
+    .guidance-step-box {
+        text-align: center;
+    }
+
+    .email-hosting-page {
+        padding: 30px 0 50px 0;
+    }
+
+    .email-hosting-plans-box {
+        margin-top: 20px;
+    }
+
+    .email-advanced-features-block .main {
+        padding: 20px;
+        padding-bottom: 30px;
+    }
+
+    .email-advanced-features-block {
+        margin-top: 20px;
+    }
+
+    .email-hosting-features-block {
+        margin-top: 25px;
+    }
+
+    .web-lightweight-right .table {
+        width: 725px;
+    }
+
+    .premium-speed-right-box {
+        padding-left: 70px;
+    }
+
+    .off-rebbon {
+        right: 0px;
+        top: -20px;
+    }
+
+    .off-rebbon:after {
+        display: none;
+    }
+
+    .availables-os-main ul li {
+        padding: 0 7px;
+        margin-top: 10px;
+    }
+
+    .availables-os-block .much-more-head {
+        padding-bottom: 0px;
+    }
+
+    ul.range-devider>li:before {
+        display: none;
+    }
+
+    ul.range-devider {
+        width: 85%;
+    }
+
+    .vps-order-box ul li {
+        display: block;
+    }
+
+    .vps-order-box ul li:first-child {
+        text-align: center;
+    }
+
+    .red-managed {
+        text-align: center;
+    }
+
+    .changing-content-box {
+        margin-top: 10px;
+    }
+
+    .rng-slider-content {
+        padding-top: 15px;
+    }
+}
+
+/* ==========================================================================
+   *Extra small devices (portrait phones, less than 576px)*
+   ========================================================================== */
+@media (max-width: 575px) {
+    .home-domain-name {
+        position: static;
+        display: block;
+        border: none;
+        text-align: center;
+        padding-top: 0px;
+    }
+
+    .home-domain-selct-btn {
+        position: static;
+        display: block;
+    }
+
+    .home-second-main .top {
+        background: #fff;
+        padding: 20px;
+    }
+
+    .home-domain-input {
+        background: #efefef;
+        border: none;
+        padding: 0 20px;
+        border-radius: 0px;
+        margin-bottom: 10px;
+        height: 55px;
+    }
+
+    .home-domain-submit {
+        display: block;
+        width: 100%;
+        border-radius: 0px;
+    }
+
+    .home-domain-selct-btn .nice-select {
+        border: solid 1px #e8e8e8;
+        padding: 15px 30px 15px 15px;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .home-domain-submit {
+        padding: 15px;
+        margin-left: 0px;
+    }
+
+    .home-control-left ul li {
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .home-control-left ul li img {
+        position: static;
+    }
+
+    .footer-top-links,
+    .footer-main-block {
+        text-align: center;
+    }
+
+    .home-domain-selct-btn .nice-select.wide {
+        width: 100%;
+    }
+
+    .home-domain-selct-btn .nice-select .list {
+        width: 100%;
+    }
+
+    .home-second-main .bottom ul li {
+        width: 48%;
+    }
+
+    .home-help-btns li {
+        display: block;
+        margin-top: 10px;
+    }
+
+    .home-help-btns li a {
+        display: inline-block;
+    }
+
+    .banner-btns li {
+        padding: 5px 0;
+    }
+
+    .dedicated-plans-box .mid ul li {
+        display: block;
+        width: 100%;
+    }
+
+    .transfer-domain-box {
+        border-radius: 0px;
+    }
+
+    .transfer-domain-box .home-domain-input {
+        background: #fff;
+    }
+
+    .email-hosting-features-box {
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .email-hosting-features-box img {
+        position: static;
+        margin-bottom: 15px;
+    }
+
+    .email-hosting-features-block .head {
+        padding-bottom: 0px;
+    }
+
+    ul.range-devider {
+        display: none;
+    }
+
+    .range-slider-block {
+        padding-bottom: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .transfer-domain-bottom-ul2 li {
+        display: block;
+        width: 100%;
+        margin: 0px;
+        margin-top: 15px;
+    }
+}
